@@ -1,6 +1,6 @@
 <template>
   <button @click="toggle = !toggle">Toggle</button>
-  <h1 v-show="toggle">Bonjout tout le monde !</h1>
+  <h1 v-show="toggle">Bonjour tout le monde !</h1>
   <h2 v-pre>{{ uneVariable }}</h2>
 </template>
 
